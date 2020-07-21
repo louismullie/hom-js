@@ -1,10 +1,10 @@
-##pailler-js
+## Paillier JS
 
 A Javascript implementation of the [Paillier cryptosystem](http://en.wikipedia.org/wiki/Paillier_cryptosystem#Semantic_Security), invented by Pascal Pailler in 1999. The Paillier cryptosystem is an additive homomorphic system, meaning that given only the public-key and the encryption of `m1` and `m2`, one can compute the encryption of `m1 + m2`.
 
-###Usage
+### Usage
 
-**Addition**
+** Addition**
   
 ```javascript
 var keys = Paillier.generateKeys(1024);
@@ -31,10 +31,10 @@ var encMul = keys.pub.mult(encA, 3456),
 // decMul is equal to 27271296
 ```
 
-###Dependencies
+### Dependencies
 
 Depends on `sjcl.js` and `jsbn.js` (included in this repository under the `lib/` folder).
 
-###License
+### License
 
 This code is licensed under the GPL v3.
