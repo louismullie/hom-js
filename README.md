@@ -1,4 +1,4 @@
-## Paillier JS
+## hom-js
 
 A Javascript implementation of the [Paillier cryptosystem](http://en.wikipedia.org/wiki/Paillier_cryptosystem#Semantic_Security), invented by Pascal Pailler in 1999. The Paillier cryptosystem is an additive homomorphic system, meaning that given only the public-key and the encryption of `m1` and `m2`, one can compute the encryption of `m1 + m2`.
 
